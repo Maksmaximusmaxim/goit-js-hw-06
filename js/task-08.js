@@ -11,6 +11,6 @@ const elements = {
     email:e.currentTarget.email.value,
     pass:e.currentTarget.password.value,
 }
-    console.log(`email:${elements.email}  pass:${elements.pass}`)
+    console.log(elements)
     e.currentTarget.reset();
 })
